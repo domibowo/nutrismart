@@ -1,0 +1,772 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="32d4a402-75d5-4007-8d7e-12094a9fb938" name="Default Changelist" comment="[UPDATE]Transactions services and controller">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/enigma/nutrismartbe/util/impl/FileUtilityImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/enigma/nutrismartbe/util/impl/FileUtilityImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application-local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-local.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/nutrismart-be.kotlin_module" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageOptionsProvider">
+    <option name="myAddOrReplace" value="-1" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1cPIFpZtGhee5SwvDZjlBP4fesO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Final Project/spring-chat-application" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Confirmation" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.enigma.nutrismartbe.controller" />
+      <recent name="com.enigma.nutrismartbe.util.impl" />
+      <recent name="com.enigma.nutrismartbe.service.impl" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.All in nutrismart-be">
+    <configuration name="All in nutrismart-be" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="nutrismart-be" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TransactionControllerTest.getCartsofAnAccount_shouldReturnStatusOK_whenAbleToGetCartsOfAnAccount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="nutrismart-be" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.enigma.nutrismartbe.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.enigma.nutrismartbe.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.enigma.nutrismartbe.controller.TransactionControllerTest" />
+      <option name="METHOD_NAME" value="getCartsofAnAccount_shouldReturnStatusOK_whenAbleToGetCartsOfAnAccount" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TransactionControllerTest.getHistories_shouldReturnStatusOK_whenAbleToGetAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="nutrismart-be" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.enigma.nutrismartbe.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.enigma.nutrismartbe.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.enigma.nutrismartbe.controller.TransactionControllerTest" />
+      <option name="METHOD_NAME" value="getHistories_shouldReturnStatusOK_whenAbleToGetAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TransactionControllerTest.getTransactionsByStatus_shouldReturnStatusOK_whenAbleToGetAllTransactionsByTransactionStatus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="nutrismart-be" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.enigma.nutrismartbe.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.enigma.nutrismartbe.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.enigma.nutrismartbe.controller.TransactionControllerTest" />
+      <option name="METHOD_NAME" value="getTransactionsByStatus_shouldReturnStatusOK_whenAbleToGetAllTransactionsByTransactionStatus" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TransactionControllerTest.updateCart_shouldReturnStatusOK_whenSuccessfullyUpdateCart" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="nutrismart-be" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.enigma.nutrismartbe.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.enigma.nutrismartbe.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.enigma.nutrismartbe.controller.TransactionControllerTest" />
+      <option name="METHOD_NAME" value="updateCart_shouldReturnStatusOK_whenSuccessfullyUpdateCart" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NutrismartBeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="nutrismart-be" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.enigma.nutrismartbe.NutrismartBeApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_nutrismart-be" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="34601" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Remote" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="LOCAL" value="false" />
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/" />
+      <deployment />
+      <server-settings>
+        <data>
+          <option name="targets">
+            <list>
+              <WatchedTargetModelImpl>
+                <option name="name" value="CONTEXT_XML" />
+                <option name="transportStagingTarget">
+                  <TransportTarget>
+                    <option name="id" value="e10eb79a-e912-4e5c-ba29-c86deb001d9e" />
+                    <id>e10eb79a-e912-4e5c-ba29-c86deb001d9e</id>
+                  </TransportTarget>
+                </option>
+                <option name="watchedLocalPath" value="" />
+                <watched-path />
+                <name>CONTEXT_XML</name>
+                <transport-target>
+                  <TransportTarget>
+                    <option name="id" value="e10eb79a-e912-4e5c-ba29-c86deb001d9e" />
+                    <id>e10eb79a-e912-4e5c-ba29-c86deb001d9e</id>
+                  </TransportTarget>
+                </transport-target>
+              </WatchedTargetModelImpl>
+              <StagingTargetModelImpl>
+                <option name="name" value="STAGING" />
+                <option name="stagingRemotePath" value="" />
+                <option name="transportStagingTarget">
+                  <TransportTarget>
+                    <option name="id" value="0a51e11e-8bf8-460e-bda4-6911d0652b05" />
+                    <id>0a51e11e-8bf8-460e-bda4-6911d0652b05</id>
+                  </TransportTarget>
+                </option>
+                <staging-path />
+                <name>STAGING</name>
+                <transport-target>
+                  <TransportTarget>
+                    <option name="id" value="0a51e11e-8bf8-460e-bda4-6911d0652b05" />
+                    <id>0a51e11e-8bf8-460e-bda4-6911d0652b05</id>
+                  </TransportTarget>
+                </transport-target>
+              </StagingTargetModelImpl>
+            </list>
+          </option>
+          <option name="transportHostId" />
+        </data>
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="TOMCAT_LOCALHOST_LOG_ID" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="34195" />
+        <option name="LOCAL" value="false" />
+      </RunnerSettings>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.All in nutrismart-be" />
+        <item itemvalue="JUnit.TransactionControllerTest.updateCart_shouldReturnStatusOK_whenSuccessfullyUpdateCart" />
+        <item itemvalue="JUnit.TransactionControllerTest.getHistories_shouldReturnStatusOK_whenAbleToGetAll" />
+        <item itemvalue="JUnit.TransactionControllerTest.getCartsofAnAccount_shouldReturnStatusOK_whenAbleToGetCartsOfAnAccount" />
+        <item itemvalue="JUnit.TransactionControllerTest.getTransactionsByStatus_shouldReturnStatusOK_whenAbleToGetAllTransactionsByTransactionStatus" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="32d4a402-75d5-4007-8d7e-12094a9fb938" name="Default Changelist" comment="" />
+      <created>1590423700707</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1590423700707</updated>
+      <workItem from="1590423707165" duration="2609000" />
+      <workItem from="1590426407818" duration="807000" />
+      <workItem from="1590462852940" duration="36995000" />
+      <workItem from="1590551966207" duration="21707000" />
+      <workItem from="1590639506140" duration="33412000" />
+      <workItem from="1590724557641" duration="30483000" />
+      <workItem from="1590811263820" duration="20508000" />
+      <workItem from="1590900935432" duration="41464000" />
+      <workItem from="1590984692047" duration="35211000" />
+      <workItem from="1591065012588" duration="36874000" />
+      <workItem from="1591150193372" duration="1328000" />
+      <workItem from="1591151656794" duration="472000" />
+      <workItem from="1591152153358" duration="1957000" />
+      <workItem from="1591154841947" duration="17178000" />
+      <workItem from="1591190336569" duration="7925000" />
+      <workItem from="1591242045714" duration="19081000" />
+      <workItem from="1591323054953" duration="29369000" />
+      <workItem from="1591417965768" duration="33598000" />
+      <workItem from="1591508444487" duration="34644000" />
+      <workItem from="1591585049790" duration="29795000" />
+      <workItem from="1591682901420" duration="268000" />
+    </task>
+    <task id="LOCAL-00001" summary="[UPDATE] Profile and Account controller">
+      <created>1590425348629</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1590425348629</updated>
+    </task>
+    <task id="LOCAL-00002" summary="[UPDATE] Cart controller and Service">
+      <created>1590427193794</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1590427193795</updated>
+    </task>
+    <task id="LOCAL-00003" summary="[UPDATE] Account, Profile, Store, and Cart.">
+      <created>1590488335730</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1590488335730</updated>
+    </task>
+    <task id="LOCAL-00004" summary="[UPDATE] Account and File">
+      <created>1590497114138</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1590497114138</updated>
+    </task>
+    <task id="LOCAL-00005" summary="[UPDATE] Account and File">
+      <created>1590497122166</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1590497122166</updated>
+    </task>
+    <task id="LOCAL-00006" summary="[FEATURES] Able to add product to cart and store">
+      <created>1590866057224</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1590866057224</updated>
+    </task>
+    <task id="LOCAL-00007" summary="[UPDATE] Sign-Up and Sign-In features for admin">
+      <created>1590866113221</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1590866113221</updated>
+    </task>
+    <task id="LOCAL-00008" summary="[UPDATE] Address and Cart merge to other entity">
+      <created>1590933326597</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1590933326597</updated>
+    </task>
+    <task id="LOCAL-00009" summary="[UPDATE] Able to do transaction">
+      <created>1591097344634</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1591097344634</updated>
+    </task>
+    <task id="LOCAL-00010" summary="[FEATURES] add exceptions for unintended request">
+      <created>1591097418190</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1591097418190</updated>
+    </task>
+    <task id="LOCAL-00011" summary="[UPDATE] API Controller">
+      <created>1591097455703</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1591097455703</updated>
+    </task>
+    <task id="LOCAL-00012" summary="[UPDATE] API Controller">
+      <created>1591097466057</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1591097466057</updated>
+    </task>
+    <task id="LOCAL-00013" summary="[FEATURE]Able to use voucher if needed">
+      <created>1591123614445</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1591123614445</updated>
+    </task>
+    <task id="LOCAL-00014" summary="[FEATURE]Able to use voucher if needed">
+      <created>1591123636188</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1591123636188</updated>
+    </task>
+    <task id="LOCAL-00015" summary="[UPDATE]Saving profile from account instead of profile API">
+      <created>1591123688932</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1591123688932</updated>
+    </task>
+    <task id="LOCAL-00016" summary="[FEATURE]CRUD Voucher">
+      <created>1591123730267</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1591123730267</updated>
+    </task>
+    <task id="LOCAL-00017" summary="[UPDATE]Database and server configurations">
+      <created>1591161465210</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1591161465210</updated>
+    </task>
+    <task id="LOCAL-00018" summary="[UPDATE]Transactions and vouchers, Price -&gt; Integer">
+      <created>1591161547395</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1591161547395</updated>
+    </task>
+    <task id="LOCAL-00019" summary="[UPDATE]Transactions services and controller">
+      <created>1591167869276</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1591167869276</updated>
+    </task>
+    <task id="LOCAL-00020" summary="[UPDATE]Transactions services and controller">
+      <created>1591167875437</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1591167875437</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="[UPDATE] Profile and Account controller" />
+    <MESSAGE value="[UPDATE] Cart controller and Service" />
+    <MESSAGE value="[UPDATE] Account, Profile, Store, and Cart." />
+    <MESSAGE value="[UPDATE] Account and File" />
+    <MESSAGE value="[FEATURES] Able to add product to cart and store" />
+    <MESSAGE value="[UPDATE] Sign-Up and Sign-In features for admin" />
+    <MESSAGE value="[UPDATE] Address and Cart merge to other entity" />
+    <MESSAGE value="[UPDATE] Able to do transaction" />
+    <MESSAGE value="[FEATURES] add exceptions for unintended request" />
+    <MESSAGE value="[UPDATE] API Controller" />
+    <MESSAGE value="[FEATURE]Able to use voucher if needed" />
+    <MESSAGE value="[UPDATE]Saving profile from account instead of profile API" />
+    <MESSAGE value="[FEATURE]CRUD Voucher" />
+    <MESSAGE value="[UPDATE]Database and server configurations" />
+    <MESSAGE value="[UPDATE]Transactions and vouchers, Price -&gt; Integer" />
+    <MESSAGE value="[UPDATE]Transactions services and controller" />
+    <option name="LAST_COMMIT_MESSAGE" value="[UPDATE]Transactions services and controller" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="585" y="270" width="186" height="275" key="#Assign_Data_Sources" timestamp="1590918401973">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="585" y="270" width="186" height="275" key="#Assign_Data_Sources/0.27.1366.741@0.27.1366.741" timestamp="1590918401973" />
+    <state x="351" y="27" width="654" height="741" key="#Dockerfile" timestamp="1591184655553">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="351" y="27" width="654" height="741" key="#Dockerfile/0.27.1366.741@0.27.1366.741" timestamp="1591184655553" />
+    <state x="556" y="238" width="243" height="325" key="#Notifications" timestamp="1591323291740">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="556" y="238" width="243" height="325" key="#Notifications/0.27.1366.741@0.27.1366.741" timestamp="1591323291740" />
+    <state x="416" y="154" width="524" height="493" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1590904892364">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="416" y="154" width="524" height="493" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.27.1366.741@0.27.1366.741" timestamp="1590904892364" />
+    <state x="141" y="45" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591153923030">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="141" y="45" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1366.741@0.27.1366.741" timestamp="1591153923030" />
+    <state x="100" y="127" width="1166" height="541" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1591527717572">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="100" y="127" width="1166" height="541" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.27.1366.741@0.27.1366.741" timestamp="1591527717572" />
+    <state x="285" y="183" width="790" height="435" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1590740444559">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="285" y="183" width="790" height="435" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1366.741@0.27.1366.741" timestamp="1590740444559" />
+    <state x="491" y="77" width="374" height="647" key="#com.intellij.ide.util.MemberChooser" timestamp="1591369789467">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="491" y="77" width="374" height="647" key="#com.intellij.ide.util.MemberChooser/0.27.1366.741@0.27.1366.741" timestamp="1591369789467" />
+    <state x="422" y="242" width="521" height="325" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1591440239304">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="422" y="242" width="521" height="325" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.27.1366.741@0.27.1366.741" timestamp="1591440239304" />
+    <state x="416" y="141" width="524" height="519" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1590926784025">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="416" y="141" width="524" height="519" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.27.1366.741@0.27.1366.741" timestamp="1590926784025" />
+    <state width="486" height="642" key="DebuggerActiveHint" timestamp="1591554419745">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="486" height="642" key="DebuggerActiveHint/0.27.1366.741@0.27.1366.741" timestamp="1591554419745" />
+    <state x="466" y="154" width="424" height="493" key="FileChooserDialogImpl" timestamp="1591253671945">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="466" y="154" width="424" height="493" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1591253671945" />
+    <state width="1320" height="164" key="GridCell.Tab.0.bottom" timestamp="1591683034109">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1320" height="164" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1591683034109" />
+    <state width="1320" height="164" key="GridCell.Tab.0.center" timestamp="1591683034108">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1320" height="164" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1591683034108" />
+    <state width="1320" height="164" key="GridCell.Tab.0.left" timestamp="1591683034108">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1320" height="164" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1591683034108" />
+    <state width="1320" height="164" key="GridCell.Tab.0.right" timestamp="1591683034108">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1320" height="164" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1591683034108" />
+    <state width="1308" height="206" key="GridCell.Tab.1.bottom" timestamp="1591555213243">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1308" height="206" key="GridCell.Tab.1.bottom/0.27.1366.741@0.27.1366.741" timestamp="1591555213243" />
+    <state width="1308" height="206" key="GridCell.Tab.1.center" timestamp="1591555213243">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1308" height="206" key="GridCell.Tab.1.center/0.27.1366.741@0.27.1366.741" timestamp="1591555213243" />
+    <state width="1308" height="206" key="GridCell.Tab.1.left" timestamp="1591555213241">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1308" height="206" key="GridCell.Tab.1.left/0.27.1366.741@0.27.1366.741" timestamp="1591555213241" />
+    <state width="1308" height="206" key="GridCell.Tab.1.right" timestamp="1591555213243">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1308" height="206" key="GridCell.Tab.1.right/0.27.1366.741@0.27.1366.741" timestamp="1591555213243" />
+    <state width="1308" height="246" key="GridCell.Tab.2.bottom" timestamp="1591298497939">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1308" height="246" key="GridCell.Tab.2.bottom/0.27.1366.741@0.27.1366.741" timestamp="1591298497939" />
+    <state width="1308" height="246" key="GridCell.Tab.2.center" timestamp="1591298497939">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1308" height="246" key="GridCell.Tab.2.center/0.27.1366.741@0.27.1366.741" timestamp="1591298497939" />
+    <state width="1308" height="246" key="GridCell.Tab.2.left" timestamp="1591298497939">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1308" height="246" key="GridCell.Tab.2.left/0.27.1366.741@0.27.1366.741" timestamp="1591298497939" />
+    <state width="1308" height="246" key="GridCell.Tab.2.right" timestamp="1591298497939">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1308" height="246" key="GridCell.Tab.2.right/0.27.1366.741@0.27.1366.741" timestamp="1591298497939" />
+    <state x="381" y="27" width="594" height="741" key="RollbackChangesDialog" timestamp="1591525399660">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="381" y="27" width="594" height="741" key="RollbackChangesDialog/0.27.1366.741@0.27.1366.741" timestamp="1591525399660" />
+    <state x="179" y="31" width="1007" height="737" key="SettingsEditor" timestamp="1591323269457">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="179" y="31" width="1007" height="737" key="SettingsEditor/0.27.1366.741@0.27.1366.741" timestamp="1591323269457" />
+    <state width="683" height="370" key="XDebugger.FullValuePopup" timestamp="1590651212568">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="683" height="370" key="XDebugger.FullValuePopup/0.27.1366.741@0.27.1366.741" timestamp="1590651212568" />
+    <state x="433" y="78" width="490" height="646" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1591332705257">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="433" y="78" width="490" height="646" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.27.1366.741@0.27.1366.741" timestamp="1591332705257" />
+    <state x="393" y="34" width="569" height="734" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1591611953398">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="393" y="34" width="569" height="734" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.27.1366.741@0.27.1366.741" timestamp="1591611953398" />
+    <state x="0" y="92" width="1356" height="617" key="new project wizard" timestamp="1591172955302">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="0" y="92" width="1356" height="617" key="new project wizard/0.27.1366.741@0.27.1366.741" timestamp="1591172955302" />
+    <state x="346" y="86" width="672" height="681" key="search.everywhere.popup" timestamp="1591541529341">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="346" y="86" width="672" height="681" key="search.everywhere.popup/0.27.1366.741@0.27.1366.741" timestamp="1591541529341" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/nutrismart_be$TransactionControllerTest_setVoucher_shouldReturnStatusOK_whenSuccessfullySetVoucherToATransaction.ic" NAME="TransactionControllerTest.setVoucher_shouldReturnStatusOK_whenSuccessfullySetVoucherToATransaction Coverage Results" MODIFIED="1591616627582" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.enigma.nutrismartbe.controller.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/nutrismart_be$TransactionServiceImplTest_setVoucher_shouldAbleToReduceGrandTotalInTransaction.ic" NAME="TransactionServiceImplTest.setVoucher_shouldAbleToReduceGrandTotalInTransaction Coverage Results" MODIFIED="1591524809520" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.enigma.nutrismartbe.service.impl.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/nutrismart_be$ProductControllerTest_deleteProduct_shouldReturnStatusOK_afterSuccessfullyDeleteAProduct.ic" NAME="ProductControllerTest.deleteProduct_shouldReturnStatusOK_afterSuccessfullyDeleteAProduct Coverage Results" MODIFIED="1591603631983" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.enigma.nutrismartbe.controller.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/nutrismart_be$TransactionControllerTest_updateCart_shouldReturnStatusOK_whenSuccessfullyUpdateCart.ic" NAME="TransactionControllerTest.updateCart_shouldReturnStatusOK_whenSuccessfullyUpdateCart Coverage Results" MODIFIED="1591622241931" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.enigma.nutrismartbe.controller.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/nutrismart_be$AccountControllerTest_saveAccount.ic" NAME="AccountControllerTest.saveAccount Coverage Results" MODIFIED="1591540606804" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.enigma.nutrismartbe.controller.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/nutrismart_be$TransactionServiceImplTest_getCartsOfAnAccount_shouldReturnCartOfAnAccount.ic" NAME="TransactionServiceImplTest.getCartsOfAnAccount_shouldReturnCartOfAnAccount Coverage Results" MODIFIED="1591456271917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.enigma.nutrismartbe.service.impl.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/nutrismart_be$AccountControllerTest.ic" NAME="AccountControllerTest Coverage Results" MODIFIED="1591539888608" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.enigma.nutrismartbe.controller.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/nutrismart_be$TransactionServiceImplTest_saveTransaction_shouldAddNewProductOnTheSameTransactionID.ic" NAME="TransactionServiceImplTest.saveTransaction_shouldAddNewProductOnTheSameTransactionID Coverage Results" MODIFIED="1591456133333" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.enigma.nutrismartbe.service.impl.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/nutrismart_be$com_enigma_nutrismartbe_in_nutrismart_be.ic" NAME="com.enigma.nutrismartbe in nutrismart-be Coverage Results" MODIFIED="1591518692862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.enigma.nutrismartbe.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/nutrismart_be$ProductControllerTest_updateProduct_shouldReturnStatusOK_whenSuccessfullyUpdatedAProduct.ic" NAME="ProductControllerTest.updateProduct_shouldReturnStatusOK_whenSuccessfullyUpdatedAProduct Coverage Results" MODIFIED="1591600490829" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.enigma.nutrismartbe.controller.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/nutrismart_be$TransactionControllerTest_removeProduct_shouldReturnStatusOK_whenSuccessfullyRemoveDetailFromTransaction.ic" NAME="TransactionControllerTest.removeProduct_shouldReturnStatusOK_whenSuccessfullyRemoveDetailFromTransaction Coverage Results" MODIFIED="1591618441720" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.enigma.nutrismartbe.controller.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/nutrismart_be$TransactionControllerTest_getHistories_shouldReturnStatusOK_whenAbleToGetAll.ic" NAME="TransactionControllerTest.getHistories_shouldReturnStatusOK_whenAbleToGetAll Coverage Results" MODIFIED="1591621501675" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.enigma.nutrismartbe.controller.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/nutrismart_be$TransactionServiceImplTest_getCart_shouldGetCartOfAnAccountByAccountID.ic" NAME="TransactionServiceImplTest.getCart_shouldGetCartOfAnAccountByAccountID Coverage Results" MODIFIED="1591456216263" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.enigma.nutrismartbe.service.impl.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/nutrismart_be$TransactionDetailServiceImplTest.ic" NAME="TransactionDetailServiceImplTest Coverage Results" MODIFIED="1591460367828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.enigma.nutrismartbe.service.impl.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/nutrismart_be$TransactionControllerTest_getTransaction_shouldReturnStatusOK_whenSuccessfullyGetSpecificTransactionByID.ic" NAME="TransactionControllerTest.getTransaction_shouldReturnStatusOK_whenSuccessfullyGetSpecificTransactionByID Coverage Results" MODIFIED="1591615024778" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.enigma.nutrismartbe.controller.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/nutrismart_be$TransactionControllerTest_getTransactionsByStatus_shouldReturnStatusOK_whenAbleToGetAllTransactionsByTransactionStatus.ic" NAME="TransactionControllerTest.getTransactionsByStatus_shouldReturnStatusOK_whenAbleToGetAllTransactionsByTransactionStatus Coverage Results" MODIFIED="1591620203886" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.enigma.nutrismartbe.controller.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/nutrismart_be$ProductControllerTest_getProduct_shouldReturnStatusOK_whenSuccessfullyGetSpecificProductById.ic" NAME="ProductControllerTest.getProduct_shouldReturnStatusOK_whenSuccessfullyGetSpecificProductById Coverage Results" MODIFIED="1591588720652" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.enigma.nutrismartbe.controller.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/nutrismart_be$ProductControllerTest_getProductsByCategory_shouldReturnStatusOK_afterSuccessfullyGetProductsByCategory.ic" NAME="ProductControllerTest.getProductsByCategory_shouldReturnStatusOK_afterSuccessfullyGetProductsByCategory Coverage Results" MODIFIED="1591602211753" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.enigma.nutrismartbe.controller.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/nutrismart_be$TransactionDetailServiceImplTest_saveDetail_shouldCreateOneDetail_whenInvoked.ic" NAME="TransactionDetailServiceImplTest.saveDetail_shouldCreateOneDetail_whenInvoked Coverage Results" MODIFIED="1591459262743" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.enigma.nutrismartbe.service.impl.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/nutrismart_be$com_enigma_nutrismartbe_service_impl_in_nutrismart_be.ic" NAME="com.enigma.nutrismartbe.service.impl in nutrismart-be Coverage Results" MODIFIED="1591520956520" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.enigma.nutrismartbe.service.impl.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/nutrismart_be$AccountControllerTest_getAccount.ic" NAME="AccountControllerTest.getAccount Coverage Results" MODIFIED="1591543159956" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.enigma.nutrismartbe.controller.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/nutrismart_be$AccountControllerTest_updatePassword.ic" NAME="AccountControllerTest.updatePassword Coverage Results" MODIFIED="1591552270316" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.enigma.nutrismartbe.controller.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/nutrismart_be$TransactionControllerTest_getTransactionsById_shouldReturnStatusOK_afterGetAllTransactionsByAccountID.ic" NAME="TransactionControllerTest.getTransactionsById_shouldReturnStatusOK_afterGetAllTransactionsByAccountID Coverage Results" MODIFIED="1591619417611" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.enigma.nutrismartbe.controller.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/nutrismart_be$CategoryControllerTest_deleteCategory_whenSuccessfullyDeleteACategory_shouldReturnStatusOK.ic" NAME="CategoryControllerTest.deleteCategory_whenSuccessfullyDeleteACategory_shouldReturnStatusOK Coverage Results" MODIFIED="1591587077897" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.enigma.nutrismartbe.controller.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/nutrismart_be$StoreServiceImplTest.ic" NAME="StoreServiceImplTest Coverage Results" MODIFIED="1591456438467" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.enigma.nutrismartbe.service.impl.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/nutrismart_be$AccountControllerTest_getAllAccount.ic" NAME="AccountControllerTest.getAllAccount Coverage Results" MODIFIED="1591550977265" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.enigma.nutrismartbe.controller.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/nutrismart_be$TransactionServiceImplTest_saveTransaction_shouldNowBeAbleForInactiveAccounts.ic" NAME="TransactionServiceImplTest.saveTransaction_shouldNowBeAbleForInactiveAccounts Coverage Results" MODIFIED="1591456150400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.enigma.nutrismartbe.service.impl.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/nutrismart_be$StoreServiceImplTest_updateStore_shouldUpdateSpecificStore_whenInvoked.ic" NAME="StoreServiceImplTest.updateStore_shouldUpdateSpecificStore_whenInvoked Coverage Results" MODIFIED="1591458416341" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.enigma.nutrismartbe.service.impl.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/nutrismart_be$TransactionServiceImplTest_getTransaction_shouldGetSpecificTransactionId.ic" NAME="TransactionServiceImplTest.getTransaction_shouldGetSpecificTransactionId Coverage Results" MODIFIED="1591456192690" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.enigma.nutrismartbe.service.impl.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/nutrismart_be$TransactionServiceImplTest.ic" NAME="TransactionServiceImplTest Coverage Results" MODIFIED="1591525838609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.enigma.nutrismartbe.service.impl.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/nutrismart_be$ProductServiceImplTest.ic" NAME="ProductServiceImplTest Coverage Results" MODIFIED="1591457638576" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/nutrismart_be$TransactionServiceImplTest_setVoucher_shouldThrowException_whenVoucherExpired.ic" NAME="TransactionServiceImplTest.setVoucher_shouldThrowException_whenVoucherExpired Coverage Results" MODIFIED="1591514918287" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.enigma.nutrismartbe.service.impl.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/nutrismart_be$ProfileControllerTest_getProfile_shouldReturnOK_whenGettingSpecificProfileByID.ic" NAME="ProfileControllerTest.getProfile_shouldReturnOK_whenGettingSpecificProfileByID Coverage Results" MODIFIED="1591605849401" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.enigma.nutrismartbe.controller.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/nutrismart_be$TransactionServiceImplTest_getTransactionHistoriesOfAnAccount_shouldReturnTwoHistories_whenInvoked.ic" NAME="TransactionServiceImplTest.getTransactionHistoriesOfAnAccount_shouldReturnTwoHistories_whenInvoked Coverage Results" MODIFIED="1591456290229" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.enigma.nutrismartbe.service.impl.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/nutrismart_be$AccountControllerTest_signIn.ic" NAME="AccountControllerTest.signIn Coverage Results" MODIFIED="1591539257597" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.enigma.nutrismartbe.controller.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/nutrismart_be$All_in_nutrismart_be.ic" NAME="All in nutrismart-be Coverage Results" MODIFIED="1591682978965" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/nutrismart_be$TransactionControllerTest_getCartsofAnAccount_shouldReturnStatusOK_whenAbleToGetCartsOfAnAccount.ic" NAME="TransactionControllerTest.getCartsofAnAccount_shouldReturnStatusOK_whenAbleToGetCartsOfAnAccount Coverage Results" MODIFIED="1591621196878" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.enigma.nutrismartbe.controller.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/nutrismart_be$TransactionControllerTest_saveTransaction_shouldReturnStatusOK_whenSuccessfullySaveNewTransaction.ic" NAME="TransactionControllerTest.saveTransaction_shouldReturnStatusOK_whenSuccessfullySaveNewTransaction Coverage Results" MODIFIED="1591614943324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.enigma.nutrismartbe.controller.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/nutrismart_be$TransactionControllerTest_commitTransaction_shouldReturnStatusOK_whenSuccessfullyCommitATransaction.ic" NAME="TransactionControllerTest.commitTransaction_shouldReturnStatusOK_whenSuccessfullyCommitATransaction Coverage Results" MODIFIED="1591617927791" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.enigma.nutrismartbe.controller.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/nutrismart_be$StoreControllerTest_updateStore_shouldReturnOK_afterAbleToUpdateStoreInformation.ic" NAME="StoreControllerTest.updateStore_shouldReturnOK_afterAbleToUpdateStoreInformation Coverage Results" MODIFIED="1591609006624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.enigma.nutrismartbe.controller.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/nutrismart_be$com_enigma_nutrismartbe_service_in_nutrismart_be.ic" NAME="com.enigma.nutrismartbe.service in nutrismart-be Coverage Results" MODIFIED="1591271178244" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.enigma.nutrismartbe.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/nutrismart_be$AccountControllerTest_saveProfileAccount.ic" NAME="AccountControllerTest.saveProfileAccount Coverage Results" MODIFIED="1591527822403" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.enigma.nutrismartbe.controller.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/nutrismart_be$TransactionServiceImplTest__1_.ic" NAME="TransactionServiceImplTest (1) Coverage Results" MODIFIED="1591456070788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.enigma.nutrismartbe.service.impl.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/nutrismart_be$TransactionControllerTest_getCart_shouldGetSpecificCartOfSpecificAccount_thenReturnStatusOK.ic" NAME="TransactionControllerTest.getCart_shouldGetSpecificCartOfSpecificAccount_thenReturnStatusOK Coverage Results" MODIFIED="1591619079180" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.enigma.nutrismartbe.controller.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/nutrismart_be$ProductControllerTest_getAllProduct.ic" NAME="ProductControllerTest.getAllProduct Coverage Results" MODIFIED="1591600472509" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.enigma.nutrismartbe.controller.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/nutrismart_be$VoucherServiceImplTest.ic" NAME="VoucherServiceImplTest Coverage Results" MODIFIED="1591464111978" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.enigma.nutrismartbe.service.impl.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/nutrismart_be$TransactionServiceImplTest_saveTransaction_shouldCreateOneNewTransaction.ic" NAME="TransactionServiceImplTest.saveTransaction_shouldCreateOneNewTransaction Coverage Results" MODIFIED="1591456105504" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.enigma.nutrismartbe.service.impl.*</FILTER>
+    </SUITE>
+  </component>
+</project>

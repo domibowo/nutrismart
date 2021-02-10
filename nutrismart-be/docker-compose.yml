@@ -1,0 +1,41 @@
+version: "3"
+volumes:
+  uploads:
+    external: false
+  database:
+    external: false
+networks:
+  services: {}
+services:
+  mysql-service:
+    image: mysql:5.7.30
+    restart: always
+    command: --default-authentication-plugin=mysql_native_password --lower_case_table_names=1 --skip-ssl --character_set_server=utf8 --explicit_defaults_for_timestamp --disable-partition-engine-check
+    environment:
+      MYSQL_ROOT_PASSWORD: akar2an
+      MYSQL_DATABASE: nutrismart
+      MYSQL_USER: nutrismart
+      MYSQL_PASSWORD: nutrismart
+      TZ: Asia/Jakarta
+    ports:
+      - 6603:3306
+    volumes:
+      - database:/var/lib/mysql
+    networks:
+      - services
+  api-service:
+    depends_on:
+      - mysql-service
+    image: nutrismart-api:latest
+    restart: always
+    ports:
+      - 5678:8090
+    environment:
+      SPRING_PROFILES_ACTIVE: docker
+      SPRING_DATASOURCE_URL: jdbc:mysql://mysql-service:3306/nutrismart?useSSL=false
+      SPRING_DATASOURCE_USERNAME: nutrismart
+      SPRING_DATASOURCE_PASSWORD: nutrismart
+    volumes:
+      - uploads:/service/uploads
+    networks:
+      - services

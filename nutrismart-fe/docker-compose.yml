@@ -1,0 +1,12 @@
+version: "3.5"
+networks:
+  root_nutrismart_networks:
+    external: true
+services:
+  nutrismart-fw:
+    image: ${NUTRISMART_IMAGE}
+    restart: always
+    networks:
+      - root_nutrismart_networks
+    ports:
+      - 9003:93
